@@ -1,0 +1,23 @@
+/*Changes some baisic colours*/
+:root {
+  --button-primary-bgcolor: #FFD524 !important;
+  --toolbar-color: #FFD524 !important;
+  --toolbar-non-lwt-bgcolor: #294D73 !important;
+  --toolbar-non-lwt-textcolor: #FFD524 !important;
+  --toolbarbutton-icon-fill: #FFD524 !important;
+  --toolbarbutton-icon-fill-attention: #FFD524 !important;
+  --toolbar-field-background-color: #192E45 !important;
+  --toolbar-field-focus-background-color: #192E45 !important;
+  --tab-selected-bgcolor: #294D73 !important;
+  --tab-selected-textcolor: #FFD524 !important;
+  --toolbox-non-lwt-bgcolor: #192E45 !important;
+  --toolbox-non-lwt-textcolor: #D2943B !important;
+  --toolbar-field-color: #FFD524 !important;
+  --toolbar-field-focus-color: #FFD524 !important;
+  --urlbarView-action-color: #FFD524 !important;
+  --chrome-content-separator-color: #192E45 !important;
+  --toolbox-non-lwt-textcolor-inactive: #D2943B !important;
+  --arrowpanel-color: #FFD524 !important;
+  --arrowpanel-background: #192E45 !important;
+  --tab-min-height: 30px !important;
+}

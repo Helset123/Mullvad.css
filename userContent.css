@@ -1,0 +1,23 @@
+@-moz-document url(about:newtab), url(about:home) {
+/* Changes the colours on the about:newtab*/  
+:root[lwt-newtab-brighttext] {  
+	--newtab-background-color: #192E45 !important;
+	--newtab-background-color-secondary: #294D73 !important;
+	--newtab-text-primary-color: #FFD524 !important;
+}
+/*Removes the logo and wordmark on the homepage*/
+ .wordmark {
+	display: none !important;
+}
+ .logo {
+	display: none !important;
+}
+/*Sets the big thing that the logo and wordmark is in to the Mullvad VPN logo*/
+ .logo-and-wordmark{
+	background-image: url("MullvadVPN_logo.svg") !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 256px;
+ }
+}
+
